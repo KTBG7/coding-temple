@@ -6,6 +6,7 @@
 
 body{
     font-family: 'Roboto', sans-serif;
+    min-height: 100svh;
 }
 
 ul{
@@ -147,5 +148,53 @@ footer{
 
     .info{
         font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .nav-list{
+        display: none;
+    }
+
+    .info{
+        font-size: 1rem;
+    }
+
+    .raisin-img{
+        width: 150px;
+        padding-right: 10px;
+    }
+    .text{
+        gap: 10px;
+        padding-right: 20px;
+    }
+
+    .container{
+        margin: 25px 20px;
+    }
+
+    .chicago{
+        width: 200px;
+        padding-left: 10px;
+    }
+
+    .lists{
+        gap: 10px;
+    }
+
+    .info-list{
+        padding-right: 10px;
+    }
+
+    .shows-list{
+        display: none;
+    }
+
+    .social{
+        display:none;
+    }
+
+    footer{
+        gap: 10px
     }
 }
